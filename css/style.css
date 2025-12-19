@@ -16,16 +16,27 @@ th{
     background-color: plum;
     padding: 10px;
 }
-
 .talen-tabel tr:nth-child(even){
     background-color: plum;
 }
-
 .talen-tabel tr:nth-child(odd){
     background-color: #f4dcf7;
 }
 .talen-tabel td{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.ervaringen{
+    list-style: none;
+}
+.ervaringen li {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid plum;
+    background-color: #f9f2fb;
+}
+.ervaringen h3 {
+    margin-bottom: 5px;
 }
 
