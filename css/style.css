@@ -1,3 +1,31 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Roboto, open-sans, sans-serif;
+}
+
+h1,h2,h3{
+   font-family: "Rockwell Nova Light", sans-serif;
+}
+
 img:hover{
     box-shadow: 10px 10px 5px #fac5e8
 }
+
+th{
+    text-align: center;
+    background-color: plum;
+    padding: 10px;
+}
+
+.talen-tabel tr:nth-child(even){
+    background-color: plum;
+}
+
+.talen-tabel tr:nth-child(odd){
+    background-color: #f4dcf7;
+}
+.talen-tabel td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
