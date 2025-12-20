@@ -40,3 +40,8 @@ th{
     margin-bottom: 5px;
 }
 
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
