@@ -3,12 +3,15 @@
     font-family: Arial, Roboto, open-sans, sans-serif;
 }
 
-h1,h2,h3{
+h1,h2{
    font-family: "Rockwell Nova Light", sans-serif;
-
+   color: plum;
 }
 h1{
     letter-spacing: 4px;
+}
+h3{
+    font-family: "Rockwell Nova Light", sans-serif;
 }
 
 img:hover{
