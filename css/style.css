@@ -139,3 +139,33 @@ footer a:hover{
     transform: scale(1.03);
 }
 
+@media (min-width: 576px) and (max-width: 991px){
+    .container{
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px;
+    }
+    .kolom-links, .kolom-rechts{
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px){
+    .container{
+        flex-direction: column;
+        margin: 10px;
+        gap: 10px;
+    }
+    .kolom-links, .kolom-rechts{
+        width: 100%;
+        padding: 10px;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        margin: 0 5px;
+    }
+}
+
+
