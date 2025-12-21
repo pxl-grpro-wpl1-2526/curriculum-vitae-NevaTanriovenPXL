@@ -168,4 +168,27 @@ footer a:hover{
     }
 }
 
+@media (max-width: 575px){
+    .talen-tabel{
+        display: none;
+    }
+    .talen-lijst{
+        display: block;
+        list-style: none;
+        padding: 0;
+    }
+    .talen-lijst li{
+        background-color: #f4dcf7;
+        padding: 10px;
+        margin-bottom: 5px;
+        border-left: 4px solid plum;
+    }
+}
+
+@media (min-width: 576px){
+    .talen-lijst{
+        display: none;
+    }
+}
+
 
