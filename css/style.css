@@ -88,6 +88,7 @@ th{
 
 .contact li{
     list-style: none;
+    margin-left: -20px;
 }
 
 .contact li i{
@@ -95,6 +96,7 @@ th{
 }
 .contact a{
     text-decoration: none;
+    color: black;
 }
 .contact a:hover{
     text-decoration: none;
@@ -131,6 +133,7 @@ footer{
     margin-left: 13rem;
     margin-right: 13rem;
     color: white;
+    background-color: plum;
 }
 
 footer a{
